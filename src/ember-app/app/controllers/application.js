@@ -28,43 +28,42 @@ export default Controller.extend({
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто-l.title'),
-            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-l.title'),
-            icon: 'folder open',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-l.title'),
-            icon: 'edit',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-чек-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-чек-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-чек-l.title'),
-            icon: 'briefcase',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-клиент-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-клиент-l.title'),
-            icon: 'chart bar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак-l.title'),
-            icon: 'briefcase',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-ku-rs-av-a-a-a-a-a-банк-дан-l',
             caption: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-банк-дан-l.caption'),
             title: i18n.t('forms.application.sitemap.ku-rs-av-a-a-a-a-a.i-i-s-ku-rs-av-a-a-a-a-a-банк-дан-l.title'),
-            icon: 'archive',
+            icon: 'chart bar',
             children: null
           }]
         }
