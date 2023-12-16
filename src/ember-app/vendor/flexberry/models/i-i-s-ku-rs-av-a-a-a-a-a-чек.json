@@ -1,0 +1,288 @@
+﻿{
+  "name": "IISKuRsAvAAAAAЧек",
+  "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-чек",
+  "className": "Чек",
+  "nameSpace": "IIS.KuRsAvAAAAA",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заправкаАвто",
+      "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧТовары",
+      "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-т-ч-товары",
+      "inverse": "чек"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЧекE",
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-чек",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер чека",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма чека",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЗаправкаАвто",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ЗаправкаАвто.ЗаправБак",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "типТопл",
+                  "caption": "Тип топлива",
+                  "hidden": false,
+                  "index": 2
+                },
+                {
+                  "name": "цена",
+                  "caption": "Цена",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "заправБак",
+              "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "колТоп",
+              "caption": "Количество топлива",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Количество топлива",
+          "name": "заправкаАвто",
+          "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиент",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Клиент.КартаЛояль",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "ном",
+                  "caption": "Карта лояльности",
+                  "hidden": false,
+                  "index": 4
+                },
+                {
+                  "name": "процСкид",
+                  "caption": "Процент скидки",
+                  "hidden": false,
+                  "index": 5
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "картаЛояль",
+              "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "Карта лояльности",
+          "name": "клиент",
+          "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧТоварыE",
+          "caption": "Товары",
+          "name": "тЧТовары",
+          "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-т-ч-товары",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЧекL",
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-чек",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер чека",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма чека",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЗаправкаАвто",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ЗаправкаАвто.ЗаправБак",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "типТопл",
+                  "caption": "Тип топлива",
+                  "hidden": false,
+                  "index": 2
+                },
+                {
+                  "name": "цена",
+                  "caption": "Цена",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "заправБак",
+              "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "колТоп",
+              "caption": "Количество топлива",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Количество топлива",
+          "name": "заправкаАвто",
+          "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиент",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Клиент.КартаЛояль",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "ном",
+                  "caption": "Карта лояльности",
+                  "hidden": false,
+                  "index": 4
+                },
+                {
+                  "name": "процСкид",
+                  "caption": "Процент скидки",
+                  "hidden": false,
+                  "index": 5
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "картаЛояль",
+              "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "Карта лояльности",
+          "name": "клиент",
+          "relatedTo": "i-i-s-ku-rs-av-a-a-a-a-a-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Ku rs av AAAAA",
+  "applicationTitle": "Ku rs av AAAAA",
+  "items": [
+    {
+      "link": null,
+      "menuName": "ku-rs-av-a-a-a-a-a",
+      "caption": "KuRsAvAAAAA",
+      "title": "KuRsAvAAAAA",
+      "children": [
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто-l",
+          "menuName": null,
+          "caption": "Заправка авто",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-l",
+          "menuName": null,
+          "caption": "Карта лояльности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-l",
+          "menuName": null,
+          "caption": "Товарный справочник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-чек-l",
+          "menuName": null,
+          "caption": "Чек",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак-l",
+          "menuName": null,
+          "caption": "Цистерна топлива",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ku-rs-av-a-a-a-a-a-банк-дан-l",
+          "menuName": null,
+          "caption": "Банковские данные",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

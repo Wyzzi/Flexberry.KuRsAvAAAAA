@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-e",
+  "editForm": "i-i-s-ku-rs-av-a-a-a-a-a-товары-спр-e",
+  "external": false,
+  "caption": "Товарный справочник",
+  "name": "IISKuRsAvAAAAAТоварыСпрL",
+  "className": "ТоварыСпрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-товары-спр",
+      "modelProjection": "ТоварыСпрL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заправка автомобиля",
+  "name": "IISKuRsAvAAAAAЗаправкаАвтоE",
+  "className": "ЗаправкаАвтоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто",
+      "modelProjection": "ЗаправкаАвтоE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-e",
+  "editForm": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль-e",
+  "external": false,
+  "caption": "Карта лояльности",
+  "name": "IISKuRsAvAAAAAКартаЛояльL",
+  "className": "КартаЛояльL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль",
+      "modelProjection": "КартаЛояльL"
+    }
+  ]
+}

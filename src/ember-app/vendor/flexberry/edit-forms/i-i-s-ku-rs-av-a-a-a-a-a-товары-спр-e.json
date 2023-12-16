@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товарный справочник",
+  "name": "IISKuRsAvAAAAAТоварыСпрE",
+  "className": "ТоварыСпрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ku-rs-av-a-a-a-a-a-товары-спр",
+      "modelProjection": "ТоварыСпрE"
+    }
+  ]
+}
