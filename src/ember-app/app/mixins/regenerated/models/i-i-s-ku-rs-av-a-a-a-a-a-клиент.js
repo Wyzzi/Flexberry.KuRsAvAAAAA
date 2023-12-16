@@ -62,12 +62,12 @@ export let defineProjections = function (modelClass) {
     номТел: attr('Номер телефона', { index: 1 }),
     eMail: attr('EMail', { index: 2 }),
     датаРожд: attr('Дата рождения', { index: 3 }),
-    банкДан: belongsTo('i-i-s-ku-rs-av-a-a-a-a-a-банк-дан', 'Банковская карта', {
-      номКарт: attr('Банковская карта', { index: 4 })
-    }, { index: -1, hidden: true }),
+    банкДан: belongsTo('i-i-s-ku-rs-av-a-a-a-a-a-банк-дан', 'Банковские данные', {
+      номКарт: attr('Банковская карта', { index: 5 })
+    }, { index: 4 }),
     картаЛояль: belongsTo('i-i-s-ku-rs-av-a-a-a-a-a-карта-лояль', 'Карта лояльности', {
-      ном: attr('Карта лояльности', { index: 5 })
-    }, { index: -1, hidden: true })
+      ном: attr('Карта лояльности', { index: 7 })
+    }, { index: 6 })
   });
 
   modelClass.defineProjection('КлиентL', 'i-i-s-ku-rs-av-a-a-a-a-a-клиент', {

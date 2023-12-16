@@ -46,11 +46,11 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЗаправкаАвтоE', 'i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто', {
     номКол: attr('Номер колонки', { index: 0 }),
     номШл: attr('Номер шланга', { index: 1 }),
-    заправБак: belongsTo('i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак', 'Тип топлива', {
-      типТопл: attr('Тип топлива', { index: 2 }),
-      цена: attr('Цена', { index: 3 })
-    }, { index: -1, hidden: true }),
-    колТоп: attr('Количество топлива', { index: 4 })
+    заправБак: belongsTo('i-i-s-ku-rs-av-a-a-a-a-a-заправ-бак', 'Бак заправочный', {
+      типТопл: attr('Тип топлива', { index: 3 }),
+      цена: attr('Цена', { index: 4 })
+    }, { index: 2 }),
+    колТоп: attr('Количество топлива', { index: 5 })
   });
 
   modelClass.defineProjection('ЗаправкаАвтоL', 'i-i-s-ku-rs-av-a-a-a-a-a-заправка-авто', {

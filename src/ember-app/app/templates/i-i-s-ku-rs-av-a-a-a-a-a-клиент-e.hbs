@@ -66,6 +66,22 @@
     {{flexberry-validationmessage error=(v-get validationModel "датаРожд" "message")}}
   </div>
   <div class="field">
+    <label>{{t "forms.i-i-s-ku-rs-av-a-a-a-a-a-клиент-e.банкДан-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.банкДан
+      relationName="банкДан"
+      projection="БанкДанL"
+      title=(t "forms.i-i-s-ku-rs-av-a-a-a-a-a-клиент-e.банкДан-caption")
+      readonly=readonly
+      componentName="банкДанLookup"
+      class=(if (v-get validationModel "банкДан" "isInvalid") "error")
+      data-test-i-i-s-ku-rs-av-a-a-a-a-a-клиент-e-банкДан=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "банкДан" "message")}}
+  </div>
+  <div class="field">
     {{flexberry-field
       readonly=true
       value=model.банкДан.номКарт
@@ -74,6 +90,22 @@
       data-test-i-i-s-ku-rs-av-a-a-a-a-a-клиент-e-банкДан-номКарт=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel.банкДан "номКарт" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-ku-rs-av-a-a-a-a-a-клиент-e.картаЛояль-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.картаЛояль
+      relationName="картаЛояль"
+      projection="КартаЛояльL"
+      title=(t "forms.i-i-s-ku-rs-av-a-a-a-a-a-клиент-e.картаЛояль-caption")
+      readonly=readonly
+      componentName="картаЛояльLookup"
+      class=(if (v-get validationModel "картаЛояль" "isInvalid") "error")
+      data-test-i-i-s-ku-rs-av-a-a-a-a-a-клиент-e-картаЛояль=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "картаЛояль" "message")}}
   </div>
   <div class="field">
     {{flexberry-field

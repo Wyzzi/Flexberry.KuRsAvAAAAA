@@ -1,5 +1,14 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": "товарыСпр",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ТЧТовары.ТоварыСпр",
+      "projection": "ТоварыСпрL",
+      "detailModelName": "i-i-s-ku-rs-av-a-a-a-a-a-т-ч-товары"
+    }
+  ],
   "external": false,
   "caption": "Чек",
   "name": "IISKuRsAvAAAAAЧекE",

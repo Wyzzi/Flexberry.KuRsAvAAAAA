@@ -30,6 +30,7 @@ namespace IIS.KuRsAvAAAAA
     [Caption("Т ч товары")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧТоварыE", new string[] {
+            "ТоварыСпр as \'Товары\'",
             "ТоварыСпр.Наим as \'Товар\'",
             "ТоварыСпр.Цена as \'Цена\'",
             "Количество as \'Количество\'"})]
